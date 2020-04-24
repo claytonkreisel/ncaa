@@ -52,9 +52,13 @@ div{
 
     input{
       padding: 5px 8px;
-      font-size: 2em;
+      font-size: 1.5em;
       width: 100%;
       box-sizing: border-box;
+
+      @include tablet{
+        font-size: 2em;
+      }
     }
 
     button{

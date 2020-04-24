@@ -106,7 +106,7 @@ class Body extends React.Component{
       return (
         <div className="app-holder">
           <section className="searchbar">
-            <input name="college-search" placeholder="Start Typing a School Name" defaultValue={search} onChange={this.handleSearch} type="text" />
+            <input name="college-search" placeholder="Type a name..." defaultValue={search} onChange={this.handleSearch} type="text" />
           </section>
           <section className="schools">
             {showSchools}
