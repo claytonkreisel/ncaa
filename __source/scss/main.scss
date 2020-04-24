@@ -1,0 +1,104 @@
+html, body{
+  margin: 0;
+}
+div{
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1400px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.instructions{
+  margin-top: 40px;
+}
+.app-holder{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid #555;
+
+  &.is-loading{
+    padding: 50px 0px;
+    text-align: center;
+  }
+
+  .searchbar{
+    background: #ddd;
+    padding: 20px 15px;
+    box-sizing: border-box;
+
+    input{
+      padding: 5px 8px;
+      font-size: 2em;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    button{
+      background: #222;
+      color: #fff;
+      padding: 5px 8px;
+      width: 20%;
+      font-size: 2em;
+      border: 1px solid #222;
+      box-sizing: border-box;
+    }
+  }
+  .schools{
+
+    .school{
+      float: left;
+      width: calc(20% - 30px);
+      padding: -10px -15px;
+      margin: 10px 15px;
+      border: 1px solid #888;
+
+      h1{
+        font-size: .9em;
+        text-align: center;
+        margin: 0;
+        padding: 5px 0px;
+        background: #444;
+        color: #fff;
+      }
+
+      ul{
+        font-size: .8em;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li{
+          border-bottom: 1px #eee dashed;
+          padding: 4px 10px;
+
+          span{
+            display: inline-block;
+            width: 35%;
+            vertical-align: top;
+
+            &.values{
+              width: 65%;
+            }
+          }
+
+          &.two-lines{
+            height: 2.1em;
+
+            span{
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    &:after{
+      display: block;
+      content: "";
+      clear: both;
+    }
+  }
+}
