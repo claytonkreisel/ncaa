@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Instructions() {
-  const gitURL = '#';
+  const gitURL = 'https://github.com/claytonkreisel/ncaa';
   return (
     <section className="instructions">
       <h1>NCAA School Information Lookup</h1>
