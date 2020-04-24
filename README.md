@@ -14,4 +14,4 @@ This was the first small application I did using React.js. I didn't spend a lot 
 
 ## Demo
 
-If you would like to view a demo of this project you can do that at [demos.claytonkreisel.com/ncaa](https://demos.claytonkreisel.com/ncaa).
+If you would like to view a demo of this project you can do that at <a target="_blank" href="https://demos.claytonkreisel.com/ncaa">demos.claytonkreisel.com/ncaa</a>.
