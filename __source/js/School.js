@@ -13,13 +13,13 @@ function School(props){
 
   return (
     <div className="school">
-      <h1 style={headerStyle}>{htmlEntities(props.name)}</h1>
+        <h1 style={headerStyle}>{htmlEntities(props.name)}</h1>
       <ul>
-        <li><span>Mascot:</span><span className="values">{props.mascot}</span></li>
-        <li className="two-lines"><span>Conference:</span><span className="values">{props.conference}</span></li>
-        <li><span>Division:</span><span className="values">NCAA Division {props.division}</span></li>
-        <li><span>City:</span><span className="values">{props.city}</span></li>
-        <li><span>State:</span><span className="values">{props.state}</span></li>
+        <li><span>Mascot:</span><span className="values">{htmlEntities(props.mascot)}</span></li>
+        <li className="two-lines"><span>Conference:</span><span className="values">{htmlEntities(props.conference)}</span></li>
+        <li><span>Division:</span><span className="values">NCAA Division {htmlEntities(props.division)}</span></li>
+        <li><span>City:</span><span className="values">{htmlEntities(props.city)}</span></li>
+        <li><span>State:</span><span className="values">{htmlEntities(props.state)}</span></li>
       </ul>
     </div>
   )
