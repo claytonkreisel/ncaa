@@ -8,6 +8,6 @@
     </head>
     <body>
         <div id="root"></div>
-        <script type="text/javascript" src="assets/js/index.min.js"></script>
+        <script type="text/javascript" src="assets/js/react/index.min.js"></script>
     </body>
 </html>

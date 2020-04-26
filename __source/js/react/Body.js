@@ -1,5 +1,5 @@
 import React from 'react';
-import School from "../../__source/js/School";
+import School from "../../../__source/js/react/School";
 
 class Body extends React.Component{
 

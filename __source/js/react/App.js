@@ -1,6 +1,6 @@
 import React from 'react';
-import Instructions from '../../__source/js/Instructions';
-import Body from '../../__source/js/Body';
+import Instructions from '../../../__source/js/react/Instructions';
+import Body from '../../../__source/js/react/Body';
 
 //Main Functional Component
 class App extends React.Component {
