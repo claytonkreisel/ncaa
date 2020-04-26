@@ -12,7 +12,7 @@
                 <section class="instructions">
                     <h1>NCAA School Information Lookup</h1>
                     <p class="links-holder"><a href="/ncaa/">React Version</a> | <a href="/ncaa/vue.php" class="active">Vue Version</a> | <a href="/ncaa/jquery.php">jQuery Version</a></p>
-                    <p>Below is an app built in Vue.js. It pulls information from an API using the popular <code>fetch()</code> command that populates the state of an app when the app first loads. After that it uses an array filter to filter school components based on the schools name when text is typed into the search bar. Give it a try!!!</p>
+                    <p>Below is an app built in Vue.js. It pulls information from an API using the popular <code>fetch()</code> command that populates the <code>data</code> of an app when the app first loads. After that it uses an array filter to filter school components based on the schools name when text is typed into the search bar. Give it a try!!!</p>
                     <p>To look at the code for this <a target="_blank" href="https://github.com/claytonkreisel/ncaa">project</a> visit its <a target="_blank" href="https://github.com/claytonkreisel/ncaa">GitHub</a></p>
                 </section>
                 <div id="app-holder" v-bind:class="{'is-loading': isLoading}" class='app-holder'>
